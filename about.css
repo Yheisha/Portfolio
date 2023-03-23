@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(images/9218026_84.jpg);
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+}
+
+.logo {
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: #FF5573;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+b {
+    font-size: 60px;
+    color: #ffa3b4;
+}
+
+.navItems {
+    display: flex;
+}
+
+.navItems .active a {
+    color: #cc445d;
+}
+
+.navItems li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navItems li a {
+    font-weight: 500;
+    font-size: 14px;
+    color: #f8a8b7;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.navItems li:hover a {
+    color: #cc445d;
+    transition: all .3s ease-in-out;
+}
+
+.links a {
+    font-size: 30px;
+    color: #FF5573;
+    margin: 25px 10px;
+}
+
+.links a:hover {
+    color: #ffa3b4;
+    transition: all .3s ease-in-out;
+}
+
+.photoSection {
+    margin-top: 100px;
+    height: 300px;
+    margin-left: 240px;
+    width: 80%;
+}
+
+img {
+    margin-top: 50px;
+    border-radius: 100px;
+    height: 200px;
+    vertical-align: middle;
+}
+
+span {
+    margin-left: 30px;
+    color: #cc445d;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.photoSection::before {
+    border-width: 10px;
+    position: absolute;
+    content: '';
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    left: 13%;
+    top: 60%;
+    background: linear-gradient(45deg,#ffcad4,#FF5573);
+}
+
+.photoSection::after{
+    border-width: 10px;
+    position: absolute;
+    content: '';
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left: 43%;
+    top: 23%;
+    background: linear-gradient(45deg,#FF5573,#ffcad4);
+}
+
+.about {
+    color: #cc445d;
+    width: 40%;
+    float: left;
+    margin-left: 170px;
+    margin-top: 210px;
+    margin-bottom: 10px;
+}
+
+.about-img {
+    height: 200px;
+    margin-right: 350px;
+    width: 15%;
+    float: right;
+}
+
+.about-img img{
+    width: 400px;
+    height: 340px;
+}
+
+.what {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 100%;
+}
+
+.what h3 {
+    font-weight: 600;
+    color: #cc445d;
+}
+
+.what p {
+    color: #cc445d;
+}
+
+.what .row .col {
+    margin-left: 30px;
+    width: 90%;
+    margin-top: 150px;
+}
+
+.imageSection {
+    margin-left: 340px;
+}
+
+.imageSection img {
+    height: 250px;
+    width: 150px;
+}

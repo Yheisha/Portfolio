@@ -1,0 +1,85 @@
+.photoSection::before {
+    position: absolute;
+    content: '';
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    left: 1%;
+    top: 25%;
+    background: linear-gradient(45deg,#ffcad4,#FF5573);
+}
+
+.photoSection::after{
+    position: absolute;
+    content: '';
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left: 38%;
+    top: 30%;
+    background: linear-gradient(45deg,#FF5573,#ffcad4);
+}
+
+
+.photoSection::before {
+    position: absolute;
+    content: '';
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    left: 1%;
+    top: 25%;
+    background: linear-gradient(45deg,#ffcad4,#FF5573);
+}
+
+.photoSection::after{
+    position: absolute;
+    content: '';
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left: 38%;
+    top: 30%;
+    background: linear-gradient(45deg,#FF5573,#ffcad4);
+}
+
+
+<div class="photoSection">
+<div class="photo">
+    <img src="images/img1.jpg">
+</div>
+</div>
+
+<div class="photoText">
+<div class="text">
+    <h1>About Me</h1>
+</div>
+</div>
+
+.photoSection {
+    background-color: aquamarine;
+    display: flex;
+    width: 45%;
+    height: 100%;
+    padding: 0 10%;
+    margin-top: 150px;
+}
+
+
+.photo {
+    background-color: antiquewhite;
+    z-index: 5;
+}
+
+.photo img {
+    height: 200px;
+    border-radius: 100px;
+}
+
+
+.photoText h1 {
+    background-color: #ffcad4;
+    float: right;
+    width: 50%;
+    height: 300px;
+}
